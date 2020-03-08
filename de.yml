@@ -1,0 +1,109 @@
+#   Übersetzt von Grabenkind
+#   Bei Rechtschreibfehlern bitte kontaktieren
+#   Kontakt: grabenkind@gmail.com
+#   
+#   Dieses Plugin wird von sword7 entwickelt!
+#   Alle Fehler die keine Rechtschreibfehler sind,
+#   müssen dem Entwickler selbst berichtet werden.
+
+Label - enabled: Aktiviert
+Label - disabled: Deaktiviert
+Label - preset: Voreinstellung
+Label - pop: Baum Populatoren
+Label - general commands: Allgemeine Befehle
+Label - pop commands: Populator Befehle
+Label - sapling: Setzling
+Label - saplings: Setzlinge
+Label - species: Art
+Label - overview: Übersicht
+Label - biomes: Biome
+Label - biome selection: Biom Auswahl
+Label - trees: Bäume
+Label - tree selection: Baum Auswahl
+Label - spawner: Spawner
+Label - spawn chance: Spawn Chance
+Label - spawn min: Spawn Menge Min
+Label - spawn max: Spawn Menge Max
+Label - overflow rad: Überschreitungs Radius
+Label - selection: Auswahl
+Label - pop selection: Populator Auswahl
+Label - genome: Baum Genom
+Label - generator: Baum Generator
+Label - no page: Seite nicht gefunden
+Label - chance: Chance
+Label - min: Min
+Label - max: Max
+Label - overflow: Überschreitung
+Label - edit: Bearbeiten
+Label - none: kein/-e
+
+Unit - blocks: Blöcke
+Unit - trees: Bäume
+
+Text - open sapling: Setzlinge auswählen
+Text - get saplings: Setzlinge bekommen
+Text - gift saplings: Einem Spieler Setzlinge geben
+Text - tencyclopedia: Eine Enzyklopädie anfordern
+Text - updatetrecords: Die Aufnahmen im Inventar aktualisieren
+Text - tgenerator: Den Baumgenerator bearbeiten
+Text - pop list: Liste aller Populatoren
+Text - pop help: Populator Befehle anzeigen
+Text - pop create: Populator erstellen
+Text - createfrom: Populator aus Vorlage erstellen
+Text - edit: Populator bearbeiten
+Text - delete: Populator löschen
+Text - rename: Populator umbenennen
+
+Arg - world: Welt
+Arg - tpop: Populator
+Arg - player: Spieler
+Arg - amount: Menge
+Arg - species: Art
+Arg - old: Alt
+Arg - new: Neu
+
+Console - plugin detected: %plugin% erkannt
+Console - file error: Fehler beim Speichern von %file%
+Console - world loaded: %world% geladen
+
+Warn - no permission: Du hast keine Berechtigung für diesen Befehl
+Warn - sapling not permitted: Du hast nicht die Erlaubnis, einen %species% Setzling zu pflanzen
+Warn - pop not found: Populator %pop% nicht gefunden
+Console - pop exists: Ein Pop namens %pop% existiert bereits
+Warn - busy pop: %player% ist damit beschäftigt, den angeforderten Populator zu bearbeiten
+Warn - busy tgen: %player% ist damit beschäftigt, den angeforderten Generator zu bearbeiten
+Warn - preset: %pop% ist ein voreingestellter Baum Populator.
+Warn - unknown species: Unbekannte Art
+Warn - not online: %player% ist nicht online
+
+Success - gen update: Generator aktualisiert
+Success - pop update: Populator aktualisiert
+Success - pop create: Populator %pop% wurde erstellt
+Success - pop rename: Populator zu %pop% umbenannt
+Success - pop remove: Populator %pop% wurde entfernt
+Success - gift sapling: %amount% %species% wurden %player% geschenkt
+
+Suggest - pop help: Ungültiges Format. Benutze /tpop help für eine Liste von Befehlen.
+
+Format - format: Das Format ist %format%
+
+Icon - close: Schließen
+Icon - back: Zurück
+
+Menu - min tree number: Min Baum Anzahl
+Menu - max tree number: Max Baum Anzahl
+Menu - scroll up: Nach oben
+Menu - scroll down: Nach unten
+Menu - scroll left: Nach links
+Menu - scroll right: Nach Rechts
+Menu - edit biomes: Biome bearbeiten
+Menu - chance per chunk: Chance pro Chunk
+Menu - overflow radius: Überschreitungs Radius
+Menu - tree spawner: Baum Spawner
+Menu - edit spawners: Baum Spawner bearbeiten
+Menu - generator: Generator
+
+Status - success: Erfolg
+Status - special characters: Die Namen dürfen nur aus a-z, A-Z, 0-9, _, und - bestehen
+Status - too long: Namen dürfen höchstens 20 Zeichen lang sein
+Status - not found: Nicht gefunden
